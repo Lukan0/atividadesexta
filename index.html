@@ -3,17 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Memorial de Cálculo</title>
+    <title>Dashboard Web SGF</title>
+
+    <style>
+        body{
+            font-family: Arial;
+            background:#f4f4f4;
+            margin:20px;
+        }
+
+        .container{
+            background:white;
+            padding:20px;
+            margin-bottom:30px;
+            border-radius:10px;
+            box-shadow:0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h1,h2{
+            text-align:center;
+        }
+
+        iframe{
+            width:100%;
+            height:600px;
+            border:none;
+        }
+
+        a{
+            display:block;
+            margin:10px 0;
+            font-size:18px;
+        }
+    </style>
 </head>
+
 <body>
 
-    <h2>Memorial de Cálculo</h2>
+    <div class="container">
+        <h1>Dashboard Web SGF</h1>
+        <p>
+            Sistema de Apoio à Decisão — Curva ABC e Análise Estatística
+        </p>
+    </div>
 
-    <iframe
-        src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQKQMU1CqPby8ul0miLqkAHMzW8Z2pw2MVMI9N-aryHRWv0DAxKFNvCmzvqObqjnv1tbFnGeXzSWeC1/pubhtml?gid=1109359502&single=true"
-        width="100%"
-        height="500">
-    </iframe>
+    <div class="container">
+        <h2>Planilha 1 — Curva ABC</h2>
+
+        <iframe
+        src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR0nrK8FLhcIbSna4NpkiH_ZD4eVI0agV9HntXBaKxrPWd3zy6JknZxoeNTNt_niOprEo17-5m8P23q/pubhtml?gid=867967236&single=true">
+        </iframe>
+    </div>
+
+    <div class="container">
+        <h2>Planilha 2 — Planilha 05</h2>
+
+        <iframe
+        src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQh7SMuvgz5ZlDmfkICbGyiisX8qLjR4j-r1KOStd-qaNuIAgWt1cq_iMWP3_bbPj-ENIVT8K5PlQfK/pubhtml?gid=1599395439&single=true">
+        </iframe>
+    </div>
+
+    <div class="container">
+        <h2>Documentos PDF</h2>
+
+        <a href="relatorio.pdf" target="_blank">
+            Abrir Relatório SAD
+        </a>
+
+        <a href="resumo.pdf" target="_blank">
+            Abrir Resumo Técnico
+        </a>
+    </div>
 
 </body>
 </html>
